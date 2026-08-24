@@ -96,8 +96,10 @@ export const Hero: React.FC = () => {
               View Projects
             </button>
             <a
-              href="/Resume_Prithviraj_Shahapure.pdf"
-              download
+              href="/PrithvirajShahapure-Resume.pdf"
+              download="PrithvirajShahapure-Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               className="py-2.5 px-6 bg-[#030014]/40 border border-[#7042f88b] text-center text-white cursor-pointer rounded-lg text-sm font-semibold tracking-wider hover:bg-[#7042f8]/20 hover:border-[#7042f8] hover:shadow-[0_0_20px_rgba(112,66,248,0.25)] hover:scale-103 active:scale-95 transition-all"
             >
               Download Resume
